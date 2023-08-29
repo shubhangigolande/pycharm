@@ -1,35 +1,49 @@
 # program 1
-fruits = ["apple","mango","banana"]
-fruits.append("chikoo")
-print(fruits)
+#append()
+vegi = ['brinjal','potato','tomato','cabbage']
+vegi.append('cauliflower')
+print(vegi)
+
 
 # program 2
-# clear
-fruits.clear()
-print(fruits)
+# clear()
+vegi.clear()
+print(vegi)
+
 
 # program3
 
-fruits = ["apple","mango","banana"]
-breakfast = fruits
-breakfast[0] = "papaya"
-print(fruits)
-print(breakfast)
+vegi = ['brinjal','potato','tomato','cabbage']
+veg=vegi
+veg[0]='brocoli'
+print(vegi)
+print(veg)
 
 
 # program 4
-numbers = [11,22,33]
-numsB =  numbers.copy()
-numsB[1] = 88
-print(numsB)
-print(numbers)
+nums=[44,55,66]
+numb=nums.copy()
+numb[1]=85
+print(numb)
+print(nums)
+
+
 
 # program 5
+numberss=[11,22,33,44,55,66,77,88,99]
+ww=numberss.count(54)
+print(ww)
+
 numberH = [22,33,44,55,22,33,44,55]
 q1 = numberH.count(22)
 print(q1)
 
 # program 6
+gnm=['swara','mahi','aarya']
+bnm=['shiv','ansh','dev']
+bnm.extend(gnm)
+print(bnm)
+
 city = ["pune","banglore","kolkata"]
 city2 = ["nagpur","wardha","akola"]
 city2.extend(city)
